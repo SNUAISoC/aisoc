@@ -1,0 +1,41 @@
+.contact-information-page .professor-heading { margin-bottom: 43px; }
+.contact-information-page .professor-heading h1 { font-size: calc(clamp(42px, 4.3vw, 60px) * var(--heading-scale)); letter-spacing: -2.4px; }
+.contact-information-list { margin-left: 132px; padding: 0 36px; border: 1px solid #e0e7df; border-radius: 20px; background: #fff; }
+.contact-information-item { display: grid; grid-template-columns: 44px minmax(0, 1fr); align-items: start; gap: 24px; min-height: 130px; padding: 31px 0 32px; }
+.contact-information-item + .contact-information-item { border-top: 1px solid #e9eee6; }
+.contact-information-icon { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 12px; background: #eff5ef; color: #3c836a; }
+.contact-information-content { min-width: 0; padding-top: 2px; }
+.contact-information-content h2 { margin: 0 0 13px; color: #718777; font-size: 10px; font-weight: 500; line-height: 1.6; letter-spacing: 1.6px; text-transform: uppercase; }
+.contact-information-content address { margin: 0; font-style: normal; }
+.contact-address-primary { display: block; color: #345242; font-size: 17px; font-weight: 500; line-height: 1.7; letter-spacing: -.25px; }
+.contact-address-line { display: block; margin-top: 6px; color: #7b8e7f; font-size: 13px; line-height: 1.9; }
+.contact-information-link { display: inline-flex; align-items: center; gap: 21px; max-width: 100%; color: #345242; font-size: 21px; font-weight: 500; line-height: 1.5; letter-spacing: -.5px; transition: color .18s; }
+.contact-information-link > span { min-width: 0; overflow-wrap: anywhere; }
+.contact-information-link svg { flex-shrink: 0; color: #71a08b; transition: transform .18s; }
+.contact-information-link:hover { color: #1e8062; }
+.contact-information-link:hover svg { transform: translate(2px, -2px); }
+
+@media (max-width: 1000px) {
+  .contact-information-list { margin-left: 78px; padding-left: 29px; padding-right: 29px; }
+}
+
+@media (max-width: 700px) {
+  .contact-information-page .professor-heading { margin-bottom: 29px; }
+  .contact-information-page .professor-heading h1 { max-width: 360px; font-size: 40px; letter-spacing: -1.7px; line-height: 1.16; }
+  .contact-information-list { margin-left: 0; padding-left: 21px; padding-right: 21px; border-radius: 16px; }
+  .contact-information-item { grid-template-columns: 35px minmax(0, 1fr); gap: 15px; min-height: 123px; padding-top: 26px; padding-bottom: 27px; }
+  .contact-information-icon { width: 35px; height: 35px; border-radius: 10px; }
+  .contact-information-icon svg { width: 19px; height: 19px; }
+  .contact-information-content { padding-top: 0; }
+  .contact-information-content h2 { margin-bottom: 12px; font-size: 9px; letter-spacing: 1.5px; }
+  .contact-address-primary { font-size: 15px; line-height: 1.7; letter-spacing: -.2px; }
+  .contact-address-line { margin-top: 6px; font-size: 12px; line-height: 1.85; }
+  .contact-information-link { gap: 12px; font-size: 17px; letter-spacing: -.3px; }
+  .contact-information-link svg { width: 16px; height: 16px; }
+}
+
+@media (max-width: 360px) {
+  .contact-information-list { padding-left: 17px; padding-right: 17px; }
+  .contact-information-item { gap: 12px; }
+  .contact-information-link { font-size: 15px; gap: 8px; }
+}

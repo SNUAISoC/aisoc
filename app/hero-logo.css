@@ -1,0 +1,52 @@
+.hero-logo-scene { position: relative; width: min(74vw, 1260px); isolation: isolate; background: #020c1e; }
+.hero-logo-art { display: block; width: 100%; height: auto; overflow: visible; }
+.hero-stack-motion { animation: hero-stack-float 7s ease-in-out infinite; }
+.hero-stack-ground { transform-box: fill-box; transform-origin: center; animation: hero-stack-ground-breathe 7s ease-in-out infinite; }
+.hero-stack-rim { opacity: .1; animation: hero-stack-layer-breathe 6.6s ease-in-out infinite; }
+.hero-stack-trace { opacity: .7; animation: hero-stack-trace-flow 6.6s linear infinite; }
+.hero-stack-layer-1 .hero-stack-rim, .hero-stack-layer-1 .hero-stack-trace { animation-delay: -2.2s; }
+.hero-stack-layer-2 .hero-stack-rim, .hero-stack-layer-2 .hero-stack-trace { animation-delay: -4.4s; }
+.hero-stack-transfer { opacity: 0; animation: hero-stack-transfer-flow 6.6s linear infinite; }
+.hero-stack-transfer-2 { animation-delay: -2.2s; }
+.hero-logo-scene[data-paused="true"] .hero-stack-motion,
+.hero-logo-scene[data-paused="true"] .hero-stack-ground,
+.hero-logo-scene[data-paused="true"] .hero-stack-rim,
+.hero-logo-scene[data-paused="true"] .hero-stack-trace,
+.hero-logo-scene[data-paused="true"] .hero-stack-transfer { animation-play-state: paused; }
+.hero-stack-toggle { position: absolute; left: 22.8%; bottom: 3.8%; display: grid; place-items: center; width: 26px; height: 26px; transform: translateX(-50%); padding: 0; border: 1px solid #24505a; border-radius: 50%; background: #04131ed9; color: #70aaa9; transition: color .2s, border-color .2s, background .2s; }
+.hero-stack-toggle:hover { color: #a7fff3; border-color: #398680; background: #09262c; }
+.hero-stack-toggle:focus-visible { outline-offset: 4px; }
+
+@keyframes hero-stack-float {
+  0%, 100% { transform: translateY(2px); }
+  50% { transform: translateY(-8px); }
+}
+@keyframes hero-stack-ground-breathe {
+  0%, 100% { transform: scaleX(1.02); opacity: .7; }
+  50% { transform: scaleX(.88); opacity: .35; }
+}
+@keyframes hero-stack-layer-breathe {
+  0%, 18%, 80%, 100% { opacity: .08; }
+  38%, 50% { opacity: .62; }
+}
+@keyframes hero-stack-trace-flow {
+  from { stroke-dashoffset: 0; }
+  to { stroke-dashoffset: -100; }
+}
+@keyframes hero-stack-transfer-flow {
+  0%, 12%, 78%, 100% { opacity: 0; stroke-dashoffset: 0; }
+  24%, 56% { opacity: .48; }
+  72% { opacity: 0; stroke-dashoffset: -73; }
+}
+
+@media (max-width: 760px) {
+  .hero-logo-scene { width: 100%; }
+  .hero-stack-toggle { width: 22px; height: 22px; bottom: 1%; }
+  .hero-stack-toggle svg { width: 11px; height: 11px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-stack-motion { transform: none; animation: none; }
+  .hero-stack-rim, .hero-stack-trace, .hero-stack-transfer, .hero-stack-ground { display: none; }
+  .hero-stack-toggle { display: none; }
+}

@@ -1,0 +1,45 @@
+.research-overview-page .professor-heading { margin-bottom: 43px; }
+.soc-research-heading { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 25px; }
+.soc-research-heading h2 { display: flex; align-items: center; gap: 13px; margin: 0; color: #29483d; font-size: 23px; font-weight: 500; line-height: 1.5; letter-spacing: -.65px; }
+.soc-research-heading h2 > span { width: 6px; height: 6px; background: #238a74; flex-shrink: 0; border-radius: 1px; }
+.soc-image-link { display: inline-flex; align-items: center; gap: 9px; padding: 7px 0; color: #667f73; font-size: 11px; line-height: 1.6; white-space: nowrap; transition: color .2s; }
+.soc-image-link:hover { color: #197c65; }
+.soc-research-figure { margin: 0; overflow: hidden; background: #fff; border: 1px solid #dfe7de; border-radius: 20px; }
+.soc-research-image { padding: 34px 30px 28px; background: #fff; }
+.soc-research-image img { display: block; width: 100%; height: auto; }
+.soc-research-scales { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); padding: 24px 32px; border-top: 1px solid #e9eee6; background: #fcfdfb; }
+.soc-research-scale { display: flex; align-items: center; gap: 15px; min-width: 0; }
+.soc-research-scale + .soc-research-scale { padding-left: 34px; }
+.soc-scale-number { color: #55927d; font-family: 'Courier New', monospace; font-size: 10px; letter-spacing: .5px; }
+.soc-scale-label { color: #39594a; font-size: 13px; font-weight: 500; }
+.soc-research-scale p { margin: 6px 0 0; color: #7b8d7f; font-size: 10px; line-height: 1.7; }
+.soc-scale-arrow { flex-shrink: 0; margin-left: auto; color: #a0b5a5; }
+.soc-illustration-note { margin: 0; padding: 0 32px 17px; background: #fcfdfb; color: #829386; font-size: 9px; line-height: 1.7; letter-spacing: .2px; }
+.soc-research-description { display: grid; grid-template-columns: 1fr 1.5fr; gap: 52px; margin-top: 28px; padding: 0 3px; }
+.soc-research-description > span { color: #427b69; font-size: 12px; font-weight: 500; line-height: 1.9; }
+.soc-research-description p { margin: 0; color: #6c8174; font-size: 12px; line-height: 1.9; }
+
+@media (max-width: 1000px) {
+  .soc-research-scale + .soc-research-scale { padding-left: 20px; }
+  .soc-research-description { gap: 32px; }
+}
+
+@media (max-width: 700px) {
+  .research-overview-page .professor-heading { margin-bottom: 31px; }
+  .soc-research-heading { align-items: flex-start; flex-direction: column; gap: 8px; margin-bottom: 17px; }
+  .soc-research-heading h2 { gap: 10px; font-size: 21px; letter-spacing: -.6px; }
+  .soc-image-link { align-self: flex-end; padding: 3px 0; font-size: 10px; }
+  .soc-research-figure { border-radius: 15px; }
+  .soc-research-image { padding: 23px 12px; }
+  .soc-research-scales { gap: 10px; padding: 17px 14px; }
+  .soc-research-scale { align-items: flex-start; flex-direction: column; gap: 8px; }
+  .soc-research-scale + .soc-research-scale { padding-left: 13px; border-left: 1px solid #e5ece2; }
+  .soc-scale-label { font-size: 11px; }
+  .soc-research-scale p { margin-top: 4px; font-size: 9px; }
+  .soc-scale-arrow { display: none; }
+  .soc-scale-number { font-size: 9px; }
+  .soc-illustration-note { padding: 0 14px 14px; font-size: 8px; }
+  .soc-research-description { grid-template-columns: minmax(0, 1fr); gap: 9px; margin-top: 22px; }
+  .soc-research-description > span { font-size: 11px; }
+  .soc-research-description p { font-size: 11px; }
+}

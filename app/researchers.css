@@ -1,0 +1,75 @@
+.researchers-page .professor-heading { margin-bottom: 36px; }
+.researcher-group-heading { display: flex; align-items: center; gap: 24px; margin-bottom: 30px; }
+.researcher-group-heading h2 { margin: 0; color: #3b554b; font-size: 21px; font-weight: 500; line-height: 1.5; letter-spacing: -.6px; }
+.researcher-group-line { flex: 1; height: 1px; background: #dce5dc; }
+.researcher-list { display: flex; flex-direction: column; gap: 34px; }
+.researcher-profile { display: grid; grid-template-columns: 224px minmax(0, 1fr); gap: 30px; }
+.researcher-profile + .researcher-profile { padding-top: 34px; border-top: 1px solid #dfe6dd; }
+.researcher-sidebar { min-width: 0; }
+.researcher-portrait { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; aspect-ratio: 1 / 1; border: 1px solid #dbe5dc; border-radius: 16px; background: #e6ede7; color: #92a69a; }
+.researcher-portrait > span { color: #697f73; font-size: 11px; letter-spacing: .2px; }
+.researcher-contact { display: flex; flex-direction: column; gap: 14px; margin: 14px 0 0; padding: 18px 20px; border: 1px solid #e0e7df; border-radius: 13px; background: #fff; }
+.researcher-contact > div { display: flex; align-items: center; gap: 12px; }
+.researcher-contact dt { display: flex; flex-shrink: 0; color: #6b9280; }
+.researcher-contact dd { min-width: 0; margin: 0; color: #788b7e; font-size: 11px; line-height: 1.7; overflow-wrap: anywhere; }
+.researcher-details { display: flex; flex-direction: column; min-width: 0; border: 1px solid #e0e7df; border-radius: 17px; background: #fff; }
+.researcher-identity { padding: 28px 32px 25px; }
+.researcher-profile-label { display: inline-flex; align-items: center; gap: 9px; color: #427b69; font-size: 9px; font-weight: 500; letter-spacing: 1.6px; text-transform: uppercase; }
+.researcher-profile-label > span { color: #bdcdc2; }
+.researcher-identity h3 { margin: 13px 0 8px; color: #4b6258; font-size: 27px; font-weight: 500; line-height: 1.3; letter-spacing: -.9px; }
+.researcher-identity p { margin: 0; color: #7b8d83; font-size: 12px; line-height: 1.7; }
+.researcher-education { flex: 1; margin: 0 32px; padding: 23px 0 28px; border-top: 1px solid #e9eee6; }
+.researcher-education-heading { display: flex; align-items: center; gap: 11px; }
+.researcher-education-heading > span { display: grid; place-items: center; width: 31px; height: 31px; border-radius: 8px; background: #eff5ef; color: #32826a; }
+.researcher-education h4 { margin: 0; color: #28483b; font-size: 16px; font-weight: 500; letter-spacing: -.35px; }
+.researcher-education-row { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; margin: 20px 0 0 42px; }
+.researcher-period { padding-top: 1px; color: #8b9c8f; font-size: 11px; line-height: 1.8; }
+.researcher-education-row p { margin: 0 0 5px; color: #788b7e; font-size: 13px; line-height: 1.6; }
+.researcher-education-row > div > span { color: #89998c; font-size: 11px; line-height: 1.8; }
+
+@media (max-width: 1000px) {
+  .researcher-profile { grid-template-columns: 200px minmax(0, 1fr); gap: 24px; }
+  .researcher-identity { padding: 25px 26px; }
+  .researcher-education { margin: 0 26px; }
+  .researcher-education-row { grid-template-columns: 88px minmax(0, 1fr); gap: 14px; margin-left: 0; }
+}
+
+@media (max-width: 600px) {
+  .researchers-page .professor-heading { margin-bottom: 27px; }
+  .researchers-page .professor-heading h1 { font-size: 40px; }
+  .researcher-group-heading { gap: 17px; margin-bottom: 24px; }
+  .researcher-group-heading h2 { font-size: 18px; }
+  .researcher-list { gap: 26px; }
+  .researcher-profile { grid-template-columns: 132px minmax(0, 1fr); gap: 13px; }
+  .researcher-profile + .researcher-profile { padding-top: 26px; }
+  .researcher-portrait { aspect-ratio: 4 / 5; gap: 12px; border-radius: 13px; }
+  .researcher-portrait > svg { width: 43px; height: 43px; }
+  .researcher-portrait > span { font-size: 9px; }
+  .researcher-contact { gap: 13px; margin-top: 12px; padding: 16px 12px; border-radius: 11px; }
+  .researcher-contact > div { gap: 7px; }
+  .researcher-contact dt svg { width: 13px; height: 13px; }
+  .researcher-contact dd { font-size: 9px; }
+  .researcher-details { border-radius: 13px; }
+  .researcher-identity { padding: 22px 18px 20px; }
+  .researcher-profile-label { gap: 5px; font-size: 8px; letter-spacing: .6px; }
+  .researcher-identity h3 { margin-top: 12px; font-size: 21px; letter-spacing: -.65px; }
+  .researcher-identity p { font-size: 10px; }
+  .researcher-education { margin: 0 18px; padding-top: 18px; padding-bottom: 23px; }
+  .researcher-education-heading { gap: 8px; }
+  .researcher-education-heading > span { width: 27px; height: 27px; }
+  .researcher-education-heading svg { width: 16px; height: 16px; }
+  .researcher-education h4 { font-size: 14px; }
+  .researcher-education-row { grid-template-columns: minmax(0, 1fr); gap: 7px; margin-top: 14px; }
+  .researcher-period { font-size: 9px; }
+  .researcher-education-row p { font-size: 11px; }
+  .researcher-education-row > div > span { font-size: 10px; }
+}
+
+@media (max-width: 360px) {
+  .researcher-profile { grid-template-columns: 108px minmax(0, 1fr); gap: 11px; }
+  .researcher-contact { padding-left: 10px; padding-right: 10px; }
+  .researcher-contact > div { gap: 5px; }
+  .researcher-identity { padding-left: 14px; padding-right: 14px; }
+  .researcher-education { margin-left: 14px; margin-right: 14px; }
+  .researcher-identity h3 { font-size: 19px; }
+}

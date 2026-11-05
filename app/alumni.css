@@ -1,0 +1,60 @@
+.alumni-page .professor-heading { margin-bottom: 36px; }
+.alumni-introduction { margin: 18px 0 0; color: #7b8e7f; font-size: 13px; line-height: 1.9; }
+.alumni-directory { overflow: hidden; border: 1px solid #e0e7df; border-radius: 18px; background: #fff; }
+.alumni-directory-heading { display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 24px 29px; border-bottom: 1px solid #e6ede2; }
+.alumni-directory-heading h2 { margin: 0; color: #45654e; font-size: 14px; font-weight: 500; line-height: 1.6; letter-spacing: -.15px; }
+.alumni-directory-heading > span { color: #8a9d8a; font-size: 10px; line-height: 1.6; }
+.alumni-table { width: 100%; border-collapse: collapse; table-layout: fixed; text-align: left; }
+.alumni-table th { padding: 16px 29px; background: #fbfcf9; color: #8b9c88; font-size: 9px; font-weight: 500; letter-spacing: .6px; line-height: 1.8; }
+.alumni-table th:first-child { width: 37%; }
+.alumni-table th:nth-child(2) { width: 25%; }
+.alumni-table th:nth-child(3) { width: 38%; }
+.alumni-table td { padding: 26px 29px; border-top: 1px solid #e9eee6; vertical-align: middle; overflow-wrap: anywhere; }
+.alumni-member-identity { display: flex; align-items: center; gap: 16px; }
+.alumni-member-identity > div:last-child { min-width: 0; }
+.alumni-avatar { display: grid; place-items: center; flex-shrink: 0; width: 55px; height: 60px; overflow: hidden; border: 1px solid #e1e9df; border-radius: 11px; background: #edf3e9; color: #8caa8d; }
+.alumni-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.alumni-member h3 { margin: 0 0 7px; color: #3b5a43; font-size: 16px; font-weight: 500; line-height: 1.6; letter-spacing: -.35px; }
+.alumni-member h3 a { display: inline-flex; align-items: center; gap: 7px; }
+.alumni-member h3 a svg { flex-shrink: 0; color: #80a180; }
+.alumni-member h3 a:hover { color: #2a885b; }
+.alumni-role { display: block; color: #8a9c88; font-size: 10px; line-height: 1.7; }
+.alumni-degree { margin: 0; color: #627e61; font-size: 12px; line-height: 1.8; }
+.alumni-graduation-year { display: block; margin-top: 5px; color: #90a08b; font-size: 10px; line-height: 1.7; }
+.alumni-affiliation { margin: 0; color: #798f76; font-size: 12px; line-height: 1.9; white-space: pre-line; }
+.alumni-mobile-label { display: none; }
+.alumni-table .alumni-empty-cell { padding: 0; }
+.alumni-empty { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 290px; padding: 51px 25px 57px; text-align: center; }
+.alumni-empty-icon { display: grid; place-items: center; width: 75px; height: 75px; margin-bottom: 22px; border: 1px solid #e5ecdf; border-radius: 23px; background: #f3f7ee; color: #799a76; }
+.alumni-empty h3 { margin: 0; color: #506f4f; font-size: 20px; font-weight: 500; line-height: 1.5; letter-spacing: -.4px; }
+.alumni-empty p { max-width: 380px; margin: 12px 0 0; color: #8a9d86; font-size: 12px; line-height: 1.95; }
+
+@media (max-width: 1000px) {
+  .alumni-table th, .alumni-table td { padding-left: 22px; padding-right: 22px; }
+  .alumni-table th:first-child { width: 38%; }
+  .alumni-table th:nth-child(2) { width: 25%; }
+  .alumni-table th:nth-child(3) { width: 37%; }
+  .alumni-member-identity { gap: 12px; }
+}
+
+@media (max-width: 700px) {
+  .alumni-page .professor-heading { margin-bottom: 27px; }
+  .alumni-introduction { margin-top: 15px; font-size: 12px; }
+  .alumni-directory { border-radius: 15px; }
+  .alumni-directory-heading { padding: 21px 22px; }
+  .alumni-directory-heading h2 { font-size: 13px; }
+  .alumni-table, .alumni-table tbody, .alumni-table tr, .alumni-table td { display: block; }
+  .alumni-table thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); }
+  .alumni-member { padding: 23px 22px; border-bottom: 1px solid #e9eee6; }
+  .alumni-member:last-child { border-bottom: 0; }
+  .alumni-table .alumni-member td { padding: 0; border-top: 0; }
+  .alumni-table .alumni-member td + td { margin-top: 21px; padding-left: 67px; }
+  .alumni-avatar { width: 53px; height: 58px; }
+  .alumni-member-identity { gap: 14px; }
+  .alumni-member h3 { font-size: 17px; }
+  .alumni-mobile-label { display: block; margin-bottom: 6px; color: #92a28e; font-size: 9px; line-height: 1.7; }
+  .alumni-empty { min-height: 300px; padding: 43px 23px 48px; }
+  .alumni-empty-icon { width: 65px; height: 65px; border-radius: 20px; margin-bottom: 19px; }
+  .alumni-empty h3 { max-width: 230px; font-size: 19px; }
+  .alumni-empty p { max-width: 285px; font-size: 11px; }
+}

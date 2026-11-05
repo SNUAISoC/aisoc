@@ -1,0 +1,103 @@
+.professor-page {
+  background: #f4f6f2;
+  color: #18312e;
+  padding: 60px 0 88px;
+}
+
+.professor-container {
+  width: calc(100% - 112px);
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.professor-heading { margin-bottom: 38px; }
+.professor-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  color: #567a70;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.professor-eyebrow > span { width: 5px; height: 5px; background: #238a74; }
+.professor-heading h1 {
+  margin: 15px 0 0;
+  font-size: calc(clamp(43px, 4.5vw, 64px) * var(--heading-scale));
+  font-weight: 600;
+  letter-spacing: -2.9px;
+  line-height: 1.12;
+}
+.professor-layout {
+  display: grid;
+  grid-template-columns: 316px minmax(0, 1fr);
+  align-items: start;
+  gap: 56px;
+}
+.professor-sidebar { min-width: 0; }
+.professor-portrait {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  aspect-ratio: 4 / 5;
+  background: #e6ede7;
+  border: 1px solid #dbe5dc;
+  border-radius: 18px;
+  color: #92a69a;
+}
+.professor-portrait > span { font-size: 12px; letter-spacing: .25px; color: #697f73; }
+.professor-identity {
+  margin-top: 18px;
+  padding: 26px 25px 12px;
+  background: #fff;
+  border: 1px solid #e0e7df;
+  border-radius: 16px;
+}
+.professor-profile-label {
+  color: #427b69;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.professor-identity h2 { margin: 13px 0 7px; font-size: 25px; font-weight: 500; letter-spacing: -.9px; color: #4b6258; }
+.professor-position { margin: 0; font-size: 12px; line-height: 1.7; color: #7b8d83; }
+.professor-contact { margin: 23px 0 0; padding: 0; }
+.professor-contact > div { display: flex; align-items: center; gap: 13px; min-height: 46px; border-top: 1px solid #edf0ea; }
+.professor-contact dt { display: flex; color: #6b9280; }
+.professor-contact dd { margin: 0; font-size: 12px; line-height: 1.7; color: #788b7e; overflow-wrap: anywhere; }
+.professor-background { display: flex; flex-direction: column; gap: 18px; min-width: 0; }
+.professor-section { min-height: 155px; padding: 25px 29px 26px; background: #fff; border: 1px solid #e0e7df; border-radius: 16px; }
+.professor-section-heading { display: flex; align-items: center; gap: 12px; }
+.professor-section-icon { display: grid; place-items: center; width: 33px; height: 33px; flex-shrink: 0; background: #eff5ef; color: #32826a; border-radius: 9px; }
+.professor-section h2 { margin: 0; font-size: 19px; font-weight: 500; line-height: 1.4; letter-spacing: -.45px; }
+.professor-template-row { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 20px; margin: 19px 0 0 45px; padding-top: 15px; border-top: 1px solid #eef1eb; }
+.professor-template-period { padding-top: 1px; color: #8b9c8f; font-size: 11px; line-height: 1.8; }
+.professor-template-entry p { margin: 0 0 4px; color: #788b7e; font-size: 13px; line-height: 1.6; }
+.professor-template-entry > span { color: #89998c; font-size: 11px; line-height: 1.8; }
+
+@media (max-width: 1000px) {
+  .professor-container { width: calc(100% - 64px); }
+  .professor-layout { grid-template-columns: 280px minmax(0, 1fr); gap: 30px; }
+  .professor-section { padding-left: 23px; padding-right: 23px; }
+  .professor-template-row { grid-template-columns: 90px minmax(0, 1fr); gap: 12px; margin-left: 0; }
+}
+
+@media (max-width: 700px) {
+  .professor-page { padding: 38px 0 56px; }
+  .professor-container { width: calc(100% - 40px); }
+  .professor-heading { margin-bottom: 28px; }
+  .professor-heading h1 { margin-top: 13px; font-size: 44px; letter-spacing: -2px; }
+  .professor-layout { grid-template-columns: minmax(0, 1fr); gap: 28px; }
+  .professor-sidebar { width: 100%; max-width: 390px; margin: 0 auto; }
+  .professor-portrait { aspect-ratio: 5 / 4; }
+  .professor-identity { margin-top: 14px; padding: 24px 23px 12px; }
+  .professor-contact { margin-top: 20px; }
+  .professor-background { gap: 14px; }
+  .professor-section { padding: 22px 21px 24px; }
+  .professor-template-row { grid-template-columns: 82px minmax(0, 1fr); }
+  .professor-section h2 { font-size: 18px; }
+}

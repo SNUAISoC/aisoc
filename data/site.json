@@ -1,0 +1,323 @@
+{
+  "siteName": "AI-SoC Lab",
+  "heroEyebrow": "SEOUL NATIONAL UNIVERSITY · AI SYSTEM ON CHIP",
+  "heroTitle": "Building intelligence,\nfrom silicon up.",
+  "heroDescription": "We design efficient computing architectures and silicon systems that power the next generation of artificial intelligence.",
+  "aboutTitle": "Where AI meets hardware.",
+  "aboutDescription": "AI-SoC Laboratory explores specialized hardware systems for next-generation computing. Our research spans computer architecture, VLSI design, hardware–software co-design, and processing-in-memory, with a system-level focus on performance, energy efficiency, and scalability.",
+  "missionQuote": "From algorithms to architecture. From architecture to silicon.",
+  "research": [
+    {
+      "id": "accelerator",
+      "number": "01",
+      "title": "Deep Learning Accelerators",
+      "subtitle": "Efficient compute for intelligent models",
+      "description": "Specialized accelerator architectures for emerging deep neural networks, focusing on performance, data movement, and energy efficiency.",
+      "tags": [
+        "AI Acceleration",
+        "Compute Architecture",
+        "Efficiency"
+      ]
+    },
+    {
+      "id": "soc",
+      "number": "02",
+      "title": "AI System-on-Chip",
+      "subtitle": "Intelligence integrated into silicon",
+      "description": "Full-stack AI system design from microarchitecture and VLSI implementation to hardware–software co-optimization.",
+      "tags": [
+        "VLSI",
+        "Hardware–Software Co-Design",
+        "SoC"
+      ]
+    },
+    {
+      "id": "pim",
+      "number": "03",
+      "title": "In-Memory Processing",
+      "subtitle": "Moving computation closer to data",
+      "description": "Processing-in-memory approaches that address the cost of data movement in future AI computing platforms.",
+      "tags": [
+        "PIM",
+        "Memory Systems",
+        "Data Movement"
+      ]
+    }
+  ],
+  "news": [
+    {
+      "id": "recruit-2027",
+      "date": "2026",
+      "category": "Recruitment",
+      "title": "Internships for 2027 Fall & 2028 Spring admissions",
+      "description": "We welcome motivated students interested in AI processors, computer architecture, and VLSI design. Please email Professor Jun-Seok Park with your resume and a brief introduction.",
+      "link": "mailto:junseok.park@snu.ac.kr"
+    }
+  ],
+  "people": [],
+  "publications": [
+    {
+      "id": "conference-2025-01",
+      "type": "conference",
+      "year": "2025",
+      "title": "An On-Device Generative AI Focused Neural Processing Unit in 4nm Flagship Mobile SoC with Fan-Out Wafer-Level Package",
+      "authors": "Jun-Seok Park, Taehee Lee, Heonsoo Lee, Changsoo Park, Youngsang Cho, Mookyung Kang, Heeseok Lee, Jinwon Kang, Taeho Jeon, Dongwoo Lee, Yesung Kang, Kyungmok Kum, Geunwon Lee, Hongki Lee, Minkyu Kim, Suknam Kwon, Sung-boem Park, Dongkeun Kim, Chulmin Jo, HyukJun Chung, Ilryoung Kim, Jongyoul Lee",
+      "venue": "2025 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2022-02",
+      "type": "conference",
+      "year": "2022",
+      "title": "A Multi-Mode 8K-MAC HW-Utilization-Aware Neural Processing Unit with a Unified Multi-Precision Datapath in 4nm Flagship Mobile SoC",
+      "authors": "Jun-Seok Park, Changsoo Park, Suknam Kwon, Hyeong-Seok Kim, Taeho Jeon, Yesung Kang, Heonsoo Lee, Dongwoo Lee, James Kim, YoungJong Lee, Sangkyu Park, Jun-Woo Jang, SangHyuck Ha, MinSeong Kim, Jihoon Bang, Suk Hwan Lim, Inyup Kang",
+      "venue": "2022 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "Session highlight",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2021-03",
+      "type": "conference",
+      "year": "2021",
+      "title": "A 6k-MAC Feature-Map-Sparsity-aware Neural Processing Unit in 5nm Flagship Mobile SoC",
+      "authors": "Jun-Seok Park, Jun-Woo Jang, Heonsoo Lee, Dongwoo Lee, Sehwan Lee, Hanwoong Jung, Seungwon Lee, Suknam Kwon, Kyungah Jeong, Joon-Ho Song, SukHwan Lim, Inyup Kang",
+      "venue": "2021 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2021-04",
+      "type": "conference",
+      "year": "2021",
+      "title": "Samsung Neural Processing Unit: An AI accelerator and SDK for flagship mobile AP",
+      "authors": "Jun-Seok Park, Heonsoo Lee, Dongwoo Lee, Jewoo Moon, Suknam Kwon, Sanghyuck Ha, MinSeong Kim, Junghun Park, Jihoon Bang, SukHwan Lim, Inyup Kang",
+      "venue": "2021 Hotchips",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2021-05",
+      "type": "conference",
+      "year": "2021",
+      "title": "Sparsity-aware and re-configurable NPU architecture for samsung flagship mobile SoC",
+      "authors": "Jun-Woo Jang, Sehwan Lee, Dongyoung Kim, Hyunsun Park, Ali Shafiee Ardestani, Yeongjae Choi, Channoh Kim, Yoojin Kim, Hyeongseok Yu, Hamzah Abdel-Aziz, Jun-Seok Park, Heonsoo Lee, Dongwoo Lee, Myeong Woo Kim, Hanwoong Jung, Heewoo Nam, Dongguen Lim, Seungwon Lee, Joon-Ho Song, Suknam Kwon, Joseph Hassoun, SukHwan, Changkyu Choi",
+      "venue": "2021 ACM/IEEE 48th Annual International Symposium on Computer Architecture (ISCA)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2019-06",
+      "type": "conference",
+      "year": "2019",
+      "title": "An 11.5 TOPS/W 1024-MAC Butterfly Structure Dual-Core Sparsity-Aware Neural Processing Unit in 8nm Flagship Mobile SoC",
+      "authors": "Jinook Song, Yunkyo Cho, Jun-Seok Park, Junwoo Jang, Sehwan Lee, Joonho Song, Jaegon Lee, Inyup Kang",
+      "venue": "2019 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2017-07",
+      "type": "conference",
+      "year": "2017",
+      "title": "Hardware-Centric Vision Processing for Mobile IoT Environment Exploiting Approximate Graph cut in Resistor Grid",
+      "authors": "Yeongjae Choi, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "2017 IEEE Winter Conference on Applications of Computer Vision (WACV)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2016-08",
+      "type": "conference",
+      "year": "2016",
+      "title": "A 1.42 tops/w deep convolutional neural network recognition processor for intelligent ioe systems",
+      "authors": "Jaehyeong Sim, Jun-Seok Park, Minhye Kim, Dongmyung Bae, Yeongjae Choi, Lee-Sup Kim",
+      "venue": "2016 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2014-09",
+      "type": "conference",
+      "year": "2014",
+      "title": "Timing error masking by exploiting operand value locality in SIMD architecture",
+      "authors": "Jaehyeong Sim, Jun-Seok Park, Seungwook Paek, Lee-Sup Kim",
+      "venue": "2014 IEEE 32nd International Conference on Computer Design (ICCD)",
+      "note": "Best Paper",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2013-10",
+      "type": "conference",
+      "year": "2013",
+      "title": "All-digital hybrid temperature sensor network for dense thermal monitoring",
+      "authors": "Seungwook Paek, Wongyu Shin, Jaeyoung Lee, Hyo-Eun Kim, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "2013 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2012-11",
+      "type": "conference",
+      "year": "2012",
+      "title": "A 1mJ/frame unified media application processor with a 179.7 pJ mixed-mode feature extraction engine for embedded 3D-media contents processing",
+      "authors": "Hyo-Eun Kim, Jun-Seok Park, Jae-Sung Yoon, Seok-Hoon Kim, Lee-Sup Kim",
+      "venue": "2012 IEEE Custom Integrated Circuits Conference (CICC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2011-12",
+      "type": "conference",
+      "year": "2011",
+      "title": "A 275mW heterogeneous multimedia processor for IC-stacking on Si-interposer",
+      "authors": "Hyo-Eun Kim, Jae-Sung Yoon, Kyu-Dong Hwang, Young-Jun Kim, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "2011 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "conference-2010-13",
+      "type": "conference",
+      "year": "2010",
+      "title": "A graphics and vision unified processor with 0.89 µW/fps pose estimation engine for augmented reality",
+      "authors": "Jae-Sung Yoon, Jeong-Hyun Kim, Hyo-Eun Kim, Won-Young Lee, Seok-Hoon Kim, Kyusik Chung, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "2010 IEEE International Solid-State Circuits Conference (ISSCC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/international-conference"
+    },
+    {
+      "id": "journal-2025-01",
+      "type": "journal",
+      "year": "2025",
+      "title": "A Multi-Mode 8K-MAC HW-Utilization-Aware Neural Processing Unit with a Unified Multi-Precision Datapath in 4nm Flagship Mobile SoC",
+      "authors": "Jun-Seok Park, Changsoo Park, Suknam Kwon, Hyeong-Seok Kim, Taeho Jeon, Yesung Kang, Heonsoo Lee, Dongwoo Lee, James Kim, YoungJong Lee, Sangkyu Park, Jun-Woo Jang, SangHyuck Ha, MinSeong Kim, Jihoon Bang, Suk Hwan Lim, Inyup Kang",
+      "venue": "Journal of Solid-State Circuits (JSSC)",
+      "note": "Invited from ISSCC",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2015-02",
+      "type": "journal",
+      "year": "2015",
+      "title": "A vision processor with a unified interest-point detection and matching hardware for accelerating a stereo-matching algorithm",
+      "authors": "Jun-Seok Park, Hyo-Eun Kim, Hong-Yun Kim, Jaeyoung Lee, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2015-03",
+      "type": "journal",
+      "year": "2015",
+      "title": "Hybrid temperature sensor network for area-efficient on-chip thermal map sensing",
+      "authors": "Seungwook Paek, Wongyu Shin, Jaeyoung Lee, Hyo-Eun Kim, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "IEEE Journal of Solid-State Circuits (JSSC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2015-04",
+      "type": "journal",
+      "year": "2015",
+      "title": "A 5-Gb/s 2.67-mW/Gb/s digital clock and data recovery with hybrid dithering using a time-dithered delta–sigma modulator",
+      "authors": "Taeho Lee, Yong-Hun Kim, Jaehyeong Sim, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2013-05",
+      "type": "journal",
+      "year": "2013",
+      "title": "A 1 mJ/Frame unified media application processor with dynamic analog-digital mode reconfiguration for embedded 3D-Media contents processing",
+      "authors": "Hyo-Eun Kim, Jun-Seok Park, Jae-Sung Yoon, Seok-Hoon Kim, Lee-Sup Kim",
+      "venue": "IEEE Journal of Solid-State Circuits (JSSC)",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2013-06",
+      "type": "journal",
+      "year": "2013",
+      "title": "A unified graphics and vision processor with a 0.89/spl mu/w/fps pose estimation engine for augmented reality",
+      "authors": "Jae-Sung Yoon, Jeong-Hyun Kim, Hyo-Eun Kim, Won-Young Lee, Seok-Hoon Kim, Kyusik Chung, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2012-07",
+      "type": "journal",
+      "year": "2012",
+      "title": "A 182 mW 94.3 f/s in Full HD Pattern-Matching Based Image Recognition Accelerator for an Embedded Vision System in 0.13-CMOS Technology",
+      "authors": "Jun-Seok Park, Hyo-Eun Kim, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2011-08",
+      "type": "journal",
+      "year": "2011",
+      "title": "A reconfigurable heterogeneous multimedia processor for IC-stacking on Si-interposer",
+      "authors": "Hyo-Eun Kim, Jae-Sung Yoon, Kyu-Dong Hwang, Young-Jun Kim, Jun-Seok Park, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    },
+    {
+      "id": "journal-2011-09",
+      "type": "journal",
+      "year": "2011",
+      "title": "Homogeneous stream processors with embedded special function units for high-utilization programmable shaders",
+      "authors": "Young-Jun Kim, Hyo-Eun Kim, Seok-Hoon Kim, Jun-Seok Park, Seungwook Paek, Lee-Sup Kim",
+      "venue": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+      "note": "",
+      "link": "",
+      "sourceUrl": "https://sites.google.com/snu.ac.kr/soc/publication/journals"
+    }
+  ],
+  "contactEmail": "junseok.park@snu.ac.kr",
+  "contactName": "Professor Jun-Seok Park",
+  "contactInstitution": "Seoul National University · Electrical and Computer Engineering",
+  "recruitingText": "We welcome motivated students interested in AI processors, computer architecture, and VLSI design. Please email your resume and a brief introduction.",
+  "theme": {
+    "accent": "#20a28c",
+    "background": "#07131d",
+    "font": "Inter",
+    "bodySize": 16,
+    "headingScale": 1,
+    "radius": 18,
+    "sectionSpacing": 100
+  },
+  "visibility": {
+    "about": true,
+    "research": true,
+    "news": true,
+    "people": true,
+    "publications": true,
+    "contact": true
+  }
+}

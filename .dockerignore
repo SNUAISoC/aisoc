@@ -1,0 +1,13 @@
+node_modules
+.next
+.next-*
+.git
+.env
+.env.*
+!.env.example
+*.log
+*.tsbuildinfo
+preview
+.publication-import
+.pages-build
+.upload
