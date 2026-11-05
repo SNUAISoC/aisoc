@@ -1,6 +1,6 @@
 # AI-SoC Laboratory — Website V2
 
-Public website: https://ssw140414-a11y.github.io/aisoc/
+Public website: https://snuaisoc.github.io/aisoc/
 
 GitHub Pages publishes a static copy of the public website. Edit locally (including the local admin), save the content, and push the source to `main` to rebuild and publish. The online copy has no admin login or content API. See [PAGES.md](PAGES.md) for details.
 
